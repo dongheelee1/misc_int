@@ -1,0 +1,9 @@
+if two strings differ in length, return False 
+
+if two strings don't differ in length 
+
+iterate through string1 from left to right (pointer i), iterate through string2 from right to left (pointer j) 
+
+return False if the char element at current pointers don't match up
+
+if iterate until i > len(string1) and j > len(string2) without any problem, return True 
